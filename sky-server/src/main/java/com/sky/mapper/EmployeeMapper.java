@@ -39,6 +39,8 @@ public interface EmployeeMapper {
      * @param build
      */
     void update(Employee build);
+    @Select("select * from employee where id = #{id}")
+    Employee getById(Long id);
 
 
 //    void insert(Employee employee);
