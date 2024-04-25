@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tAaMWCuhnwoaQFaC7Lp
     access-key-secret: HGxN1LcgSbDJdGOdyUfUUGzH5nsLGl
     bucket-name: projecttrain
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
